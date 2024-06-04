@@ -31,12 +31,10 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  float: left;
-  background-color: #f5f5f5;
-  background-image: linear-gradient(120deg, #26a1ed 0%, #0272a9 100%);
-  border: 1px solid #eaeaea;
-  border-radius: 5px;
-  padding: 20px;
+  background-image: linear-gradient(160deg, #26a1ed 0%, #026292 100%);
+  border: 1px solid #282828;
+  border-radius: .5rem;
+  padding: 1rem;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.25s;
@@ -47,24 +45,37 @@ body {
 }
 
 .card-body {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   height: 100%;
   width: 100%;
 }
 
+.shuffle {
+  margin: 1rem;
+  color: white;
+  background-image: linear-gradient(160deg, #e75a71 0%, #c7233f 100%);
+}
+
+input {
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #707070;
+  border-radius: 0.5rem;
+}
+
 form {
-  box-sizing: content-box;
+  margin: 0 1rem;
   padding: 3rem;
   display: grid;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   border-radius: 1rem;
-  border: 1px solid #eaeaea;
+  border: 1px solid #707070;
   gap: 2rem;
-  grid-template-rows: 1fr 1fr;
-  float: right;
-  width: 20%;
+  float: left;
+  width: 15rem;
 }
 
 code {

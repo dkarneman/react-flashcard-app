@@ -5,7 +5,8 @@ services to memorize, and I wanted flashcards to help me study. I also wanted mo
 React, so this was a perfect project to kill two birds with one stone.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-and based on a [a project by Dev.to](https://dev.to/drew_womble/create-a-flashcard-application-using-react-53ij).
+and based on a [a project by Dev.to](https://dev.to/drew_womble/create-a-flashcard-application-using-react-53ij)
+with some modifications that allow me to shuffle them and remove ones I've already memorized.
 
 I hope you find it useful!
 
