@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --cerulean: #0081a7ff;
+  --verdigris: #00afb9ff;
+  --light-yellow: #fdfcdcff;
+  --light-orange: #fed9b7ff;
+  --bittersweet: #f07167ff;
+}
+
 .delete-button {
   color: white;
   cursor:pointer;
@@ -22,7 +30,6 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-auto-rows: minmax(150px, auto);
   grid-gap: 10px;
-  padding: 10px;
   width: 59%;
 }
 
@@ -31,17 +38,25 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: linear-gradient(160deg, #26a1ed 0%, #026292 100%);
-  border: 1px solid #282828;
+  border: 1px solid #707070;
   border-radius: .5rem;
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.25s;
-}
 
-.flash-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  &.question {
+    background-color: var(--cerulean);
+    /* background-image: linear-gradient(160deg, #26a1ed 0%, #026292 100%); */
+  }
+
+  &.answer {
+    background-color: var(--verdigris);
+    /* background-image: linear-gradient(160deg, #00ba9b 0%, #00826c 100%); */
+  }
 }
 
 .card-body {
@@ -54,7 +69,7 @@ body {
 .shuffle {
   margin: 1rem;
   color: white;
-  background-image: linear-gradient(160deg, #e75a71 0%, #c7233f 100%);
+  background-color: var(--bittersweet)
 }
 
 input {

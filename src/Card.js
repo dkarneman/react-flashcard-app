@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function Card ({ card, handleDeleteCard }) {
-    const [flipCard, setFlipCard] = useState(false);
+    const [flipCard, setFlipCard] = useState(true);
 
     const handleDelete = (cardId) => {
         handleDeleteCard(cardId);
@@ -13,10 +13,13 @@ function Card ({ card, handleDeleteCard }) {
         })
     }
 
+    var className = "flash-card ";
+    className += flipCard ? "question" : "answer";
+
     return (
-        <div className="flash-card">
+        <div className={className}>
             <div className="card-body" onClick={() => setFlipCard(!flipCard)}>
-                {flipCard ? card.answer : card.question}
+                {flipCard ? card.question : card.answer}
             </div>
             <span className='delete-button' onClick={() => handleDelete(card.id)}>&times;</span>
         </div>
