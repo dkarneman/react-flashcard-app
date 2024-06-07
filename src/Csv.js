@@ -1,4 +1,4 @@
-export default function SelectCSVForm({ handleAddCards }) {
+export default function SelectCSVForm({ handleAddCards, closeModal }) {
     const parseCsv = (csvData) => {
         /* Parse CSV data and return an array of objects */
         const lines = csvData.split("\n");
@@ -43,6 +43,7 @@ export default function SelectCSVForm({ handleAddCards }) {
           const jsonData = parseCsv(csvData);
           if (saveData(jsonData)) {
             handleAddCards(jsonData);
+            closeModal();
           }
 
         };
