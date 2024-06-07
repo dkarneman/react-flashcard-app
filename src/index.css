@@ -15,6 +15,12 @@ body {
   --bittersweet: #f07167ff;
 }
 
+.controls {
+  float: left;
+  gap: 1rem;
+  margin: 1rem;
+}
+
 .delete-button {
   color: white;
   cursor:pointer;
@@ -31,6 +37,7 @@ body {
   grid-auto-rows: minmax(150px, auto);
   grid-gap: 10px;
   width: 59%;
+  margin: 1rem;
 }
 
 .flash-card {
@@ -50,47 +57,44 @@ body {
 
   &.question {
     background-color: var(--cerulean);
-    /* background-image: linear-gradient(160deg, #26a1ed 0%, #026292 100%); */
+    color: var(--light-yellow);
   }
 
   &.answer {
-    background-color: var(--verdigris);
-    /* background-image: linear-gradient(160deg, #00ba9b 0%, #00826c 100%); */
+    background-color: var(--light-yellow);
+    color: var(--cerulean);
   }
 }
 
 .card-body {
   font-size: 1.5em;
-  color: white;
   height: 100%;
   width: 100%;
 }
 
 .shuffle {
+  font-size: 1.5rem;
   margin: 1rem;
   color: white;
-  background-color: var(--bittersweet)
+  background-color: var(--verdigris)
 }
 
 input {
   margin: auto;
   padding: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 1px solid #707070;
   border-radius: 0.5rem;
 }
 
 form {
-  margin: 0 1rem;
-  padding: 3rem;
-  display: grid;
+  margin: 0.5rem;
+  padding: 1rem;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: 1px solid #707070;
-  gap: 2rem;
-  float: left;
-  width: 15rem;
+  gap: 1rem;
 }
 
 code {

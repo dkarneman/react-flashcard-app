@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Card ({ card, handleDeleteCard }) {
+export default function Card ({ card, handleDeleteCard }) {
     const [flipCard, setFlipCard] = useState(true);
 
     const handleDelete = (cardId) => {
@@ -26,4 +26,3 @@ function Card ({ card, handleDeleteCard }) {
     );
 }
 
-export default Card;

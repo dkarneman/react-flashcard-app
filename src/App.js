@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 import CardList from "./CardList";
 import Form from "./Form";
+import SelectCSVForm from "./Csv";
 
 function shuffle(array) {
   // An implementation of the Fisher-Yates shuffle algorithm
@@ -32,8 +33,8 @@ function App() {
     .then(data => setCards(data))
   }, []);
 
-  const handleAddCard = (newCard) => setCards(currentCardList => {
-    return [...currentCardList, newCard]
+  const handleAddCards = (newCards) => setCards(currentCardList => {
+    return [...currentCardList, ...newCards]
   })
 
   const handleDeleteCard = (cardId) => setCards(currentCardList => {
@@ -47,11 +48,10 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <input class='shuffle' type='button' value='Shuffle' onClick={ handleShuffleCards }/>
-      </div>
-      <div>
-        <Form handleAddCard={ handleAddCard }/>
+      <div className="controls">
+        <input className='shuffle' type='button' value='Shuffle' onClick={ handleShuffleCards }/>
+        <Form handleAddCards={ handleAddCards }/>
+        <SelectCSVForm handleAddCards={ handleAddCards }/>
       </div>
       <div>
         <CardList cards={ cards } handleDeleteCard={ handleDeleteCard }/>

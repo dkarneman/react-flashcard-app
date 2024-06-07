@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Form ( { handleAddCard }) {
+function Form ( { handleAddCards }) {
     const [question, setQuestion] = useState('');
     const [answer, setAnswer] = useState('');
 
@@ -20,7 +20,7 @@ function Form ( { handleAddCard }) {
             body: JSON.stringify(newCardObject)
         })
         .then(response => response.json())
-        .then(data => handleAddCard(data))
+        .then(data => handleAddCards([data]))
 
     }
 
