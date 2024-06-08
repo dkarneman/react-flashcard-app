@@ -1,0 +1,150 @@
+question,answer
+analyze data directly in Amazon S3 by using standard SQL,Amazon Athena
+"find, subscribe to, and use third-party data in the cloud",AWS Data Exchange
+"run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data",Amazon EMR
+"discover, prepare, move, and integrate data from multiple sources",AWS Glue
+"collect, process, and analyze video streams and data streams in near real time",Amazon Kinesis
+build and run applications that use Apache Kafka to process streaming data,Amazon MSK
+"deploy, operate, and scale OpenSearch clusters in the cloud",Amazon OpenSearch Service
+business intelligence service that provides insights in a single data dashboard,Amazon QuickSight
+"use events to connect application components together, build scalable event-driven applications",Amazon EventBridge
+provides message delivery from publishers to subscribers,Amazon SNS
+provides a queue to integrate and decouple distributed software systems and components,Amazon SQS
+integrate with Lambda functions and view application workflows as a series of event-driven steps,AWS Step Functions
+omnichannel cloud contact center,Amazon Connect
+send and receive emails through existing email addresses and domains,Amazon SES
+custom billing service that can support showback and chargeback workflows of AWS Solution Providers and Enterprise customers,AWS Billing Conductor
+set a monthly cost budget with alerts for actual spend or forecasted spend,AWS Budgets
+contains the most comprehensive set of cost and usage data available,AWS Cost and Usage Report
+"visualize cost and usage over time, including the past 12 months and a forecast of the next 12 months",AWS Cost Explorer
+"curated digital catalog of third-party software, data, and services",AWS Marketplace
+run batch computing workloads,AWS Batch
+provides scalable computing capacity in the AWS Cloud,Amazon EC2
+deploy and manage applications without knowledge of the underlying infrastructure,AWS Elastic Beanstalk
+run code without the need to provision or manage servers,AWS Lambda
+launch projects quickly from a simple management interface,Amazon Lightsail
+"extends AWS infrastructure, services, APIs, and tools to customer premises",AWS Outposts
+"container image registry that is secure, scalable, and reliable",Amazon ECR
+"deploy, manage, and scale containerized applications",Amazon ECS
+"run Kubernetes without the need to install, operate, or maintain the Kubernetes control plane or nodes",Amazon EKS
+works with Amazon ECS to run containers without the need to manage servers or EC2 instances,AWS Fargate
+provides resources to help startups build and grow on AWS,AWS Activate for Startups
+connects users to AWS Certified experts for help with AWS projects,AWS IQ
+provides ongoing management for a user’s AWS infrastructure,AWS Managed Services (AMS)
+database engine that is compatible with MySQL and PostgreSQL,Amazon Aurora
+NoSQL database service with fast and predictable performance and seamless scalability; schemaless,Amazon DynamoDB
+"durable, in-memory database service that delivers ultra-fast performance",Amazon MemoryDB for Redis
+graph database service for highly connected datasets,Amazon Neptune
+"set up, operate, and scale a relational database in the cloud",Amazon RDS
+petabyte-scale data warehouse with automatically provisioned resources and intelligent scaling,Amazon Redshift
+"create, manage, and quickly deploy application configurations",AWS AppConfig
+interact with AWS services through commands in the command-line shell,AWS CLI
+an integrated development environment (IDE) with a built-in terminal that supports several programming languages,AWS Cloud9
+"a browser-based, pre-authenticated shell that users can launch directly from the console",AWS CloudShell
+artifact repository that helps companies to store and share software packages for application development,AWS CodeArtifact
+"compiles source code, runs unit tests, and produces artifacts that are ready to deploy",AWS CodeBuild
+"host private Git repositories, store and manage assets",AWS CodeCommit
+automate application deployments to on-premises instances or select AWS resources,AWS CodeDeploy
+"model, visualize, and automate the steps to release software with continuous delivery",AWS CodePipeline
+create and manage software development projects by integrating AWS services in the project development toolchain,AWS CodeStar
+use software development kits to develop applications in your preferred programming language,AWS SDK
+"collects data about application requests and provides tools to view, filter, and gain insights into the data",AWS X-Ray
+application streaming service that provides users with instant access to desktop applications from anywhere,Amazon AppStream 2.0
+"provision virtual, cloud-based desktops without the need to deploy hardware or install complex software",Amazon WorkSpaces
+facilitates secure browser access to internal websites and SaaS applications,Amazon WorkSpaces Web
+set of purpose-built tools and features to build full-stack applications,AWS Amplify
+connect applications and services to data and events with GraphQL and pub/sub APIs,AWS AppSync
+"app testing for Android, iOS, and web apps",AWS Device Farm
+connect and process messages between IoT devices and IoT services,AWS IoT Core
+"build, deploy, and manage IoT edge runtime applications on devices",AWS IoT Greengrass
+uses natural language processing (NLP) to extract insights from documents,Amazon Comprehend
+intelligent search service that uses NLP and ML algorithms,Amazon Kendra
+build conversational interfaces for applications that use voice and text,Amazon Lex
+convert text into lifelike speech,Amazon Polly
+"identify objects, people, text, scenes, and activities in images and videos",Amazon Rekognition
+"build and train ML models, then deploy the models in a production-ready hosted environment",Amazon SageMaker
+"automatically extract text, handwriting, and data from scanned documents",Amazon Textract
+automatic speech recognition that converts audio to text,Amazon Transcribe
+translate unstructured text documents or build applications that work in multiple languages,Amazon Translate
+monitors applications to automatically scale resources dynamically by adjusting capacity based on defined thresholds,AWS Auto Scaling
+"model, set up, and create templates of AWS resources",AWS CloudFormation
+"records actions taken by users in the console, AWS CLI, AWS SDKs, and APIs",AWS CloudTrail
+"monitors resources and applications, collects and tracks metrics, has alarms",Amazon CloudWatch
+"analyzes the configuration and utilization metrics of resources, provides optimization recommendations",AWS Compute Optimizer
+"provides a detailed view of AWS resource configuration, changes in configuration, and compliance",AWS Config
+set up and govern a multi-account environment,AWS Control Tower
+provides ongoing visibility into resource performance and availability of AWS services and user accounts,AWS Health Dashboard
+deploy application and domain-controller solutions to the cloud,AWS Launch Wizard
+manage software licenses from software vendors centrally across AWS and on-premises environments,AWS License Manager
+web application used to manage AWS resources,AWS Management Console
+account management service that can consolidate billing and accounts,AWS Organizations
+create and manage catalogs of IT services that are approved for AWS,AWS Service Catalog
+"organize, monitor, and automate management tasks on AWS resources",AWS Systems Manager
+inspects a user’s AWS environment and makes recommendations based on best practices,AWS Trusted Advisor
+provides recommendations to improve workloads based on best practices,AWS Well-Architected Tool
+collects usage and configuration data about on-premises servers and databases to help plan a migration to AWS,AWS Application Discovery Service
+automated lift-and-shift (rehost) solution for migrations to AWS,AWS Application Migration Service
+"migrate relational databases, data warehouses, NoSQL databases, and data stores to AWS",AWS DMS
+"a central location to discover existing servers, plan migrations, and track the status of each application migration",AWS Migration Hub
+convert an existing database schema from one database engine to another,AWS SCT
+"run operations in remote, non-data center environments, and locations without network connectivity",AWS Snow Family
+transfer files in to and out of AWS storage services,AWS Transfer Family
+"create, publish, and monitor REST, HTTP, and WebSocket APIs at any scale",Amazon API Gateway
+speed up distribution of static and dynamic web content to end users through edge locations,Amazon CloudFront
+a private dedicated network connection from an on-premises data center to the cloud,AWS Direct Connect
+improve availability and performance of applications through a global network of endpoints,AWS Global Accelerator
+"DNS service for domain registration, DNS routing, and health checking",Amazon Route 53
+launch AWS resources in logically isolated virtual networks,Amazon VPC
+establish a secure and private tunnel from on premises to the cloud,AWS VPN
+download security and compliance documents,AWS Artifact
+continually audit AWS usage to manage risk and to comply with regulations and industry standards,AWS Audit Manager
+"creates, stores, and renews public and private SSL/TLS certificates",AWS Certificate Manager (ACM)
+provides a compute device that processes cryptographic operations and storage,AWS CloudHSM
+"identity platform for web and mobile applications, including federation for third parties",Amazon Cognito
+"analyze, investigate, and identify the root cause of security findings or suspicious activities",Amazon Detective
+provides multiple ways to set up and run Microsoft Active Directory with AWS services,AWS Directory Service
+provides administration and maintenance tasks across multiple accounts and resources for a variety of protections,AWS Firewall Manager
+intelligent threat detection that provides continuous monitoring,Amazon GuardDuty
+helps users securely control access to AWS resources,IAM
+manage sign-in security for workforce identities,IAM Identity Center
+continuously scans AWS workloads for software vulnerabilities and unintended network exposure,Amazon Inspector
+create and control cryptographic keys that protect user data,AWS KMS
+"discovers sensitive data, PII, and security risks, then provides automated protection against those risks",Amazon Macie
+provides intrusion detection and prevention for a VPC,AWS Network Firewall
+securely share resources across AWS accounts,AWS RAM
+manage and rotate credentials to improve security,AWS Secrets Manager
+collects security data across accounts and identifies priority security issues,AWS Security Hub
+provides protection against DDoS attacks for AWS resources,AWS Shield
+monitor HTTP(S) requests and control access to web application resources,AWS WAF
+centralize and automate backups of data from AWS storage services and on-premises storage systems,AWS Backup
+block-level storage volumes for use with EC2 instances,Amazon EBS
+"serverless, fully scalable shared file system",Amazon EFS
+"minimizes downtime and data loss from natural catastrophes, application failures, or disruptions of service",AWS Elastic Disaster Recovery
+"launch, run, and scale file systems in the cloud",Amazon FSx
+scalable object storage in the cloud,Amazon S3
+secure and durable data archiving and long-term backup,Amazon S3 Glacier storage classes
+connect an on-premises software appliance with cloud-based storage,AWS Storage Gateway
+"support development and run workloads effectively, gain insights into workload operations, and continuously improve supporting processes and procedures to deliver business value",Operational excellence
+"protect data, systems, and assets by using cloud technologies to improve security",Security
+includes the ability of a workload to perform its intended function correctly and consistently when expected throughout its lifecycle,Reliability
+use computing resources efficiently to meet system requirements and to maintain efficiency as demand changes and technologies evolve,Performance efficiency
+includes the ability to run systems to deliver business value at the lowest price point,Cost optimization
+"focuses on environmental impacts, especially energy consumption and efficiency, to inform direct actions to reduce resource usage",Sustainability
+isolated geographic area that consists of multiple Availability Zones,Regions
+one or more data centers within a Region,Availability Zones
+a worldwide network of data centers that optimizes latency and throughput to users,Edge locations
+provides low-latency access to applications by placing AWS resources close to large population and industry centers,AWS Local Zones
+build applications that deliver ultra-low latencies to mobile devices and end users through 5G networks,AWS Wavelength
+"connects Amazon VPCs, AWS accounts, and on-premises networks to a single gateway",AWS Transit Gateway
+a physical or software appliance that a user owns and manages on premises,Customer gateway
+establishes connectivity that spans Amazon VPCs spread across multiple Regions,Direct Connect gateway
+an Amazon VPC component that allows communication between a user’s computer and the internet,Internet gateway
+a network address translation service that gives instances in a private subnet the ability to connect to services outside of the user’s Amazon VPC,NAT gateway
+the gateway on the AWS side of an AWS Site-to-Site VPN connection,Virtual private gateway
+physical host that is fully dedicated to the user,Dedicated Hosts
+"EC2 instance in a VPC dedicated to one user, no long-term commitment required, pay by the second",Dedicated Instances
+"commit to a 1-year or 3-year term for individual instance families in a Region, can change instance types within the family",EC2 Savings Plan
+reserve EC2 instance capacity with no term commitment required,On-Demand Capacity Reservations
+"no long-term commitment required, pay by the second",On-Demand Instances
+commit to a 1-year or 3-year term,Reserved Instances
+request unused instances for flexible workloads,Spot Instances
