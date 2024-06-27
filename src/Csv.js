@@ -1,3 +1,5 @@
+import { generateKey } from "./Utils";
+
 export default function SelectCSVForm({ handleAddCards, closeModal }) {
   const parseCsv = (csvData) => {
     /* Parse CSV data and return an array of objects */
@@ -25,12 +27,14 @@ export default function SelectCSVForm({ handleAddCards, closeModal }) {
   const saveData = (jsonData) => {
     /* Save JSON data to the server */
     for (let i = 0; i < jsonData.length; i++) {
+      let row = jsonData[i];
+      row['id'] = generateKey();
       fetch('http://localhost:3001/questions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(jsonData[i])
+        body: JSON.stringify(row)
       })
     }
     return true;

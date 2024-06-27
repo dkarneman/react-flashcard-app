@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { generateKey } from './Utils';
 
 function Form ( { handleAddCards }) {
     const [question, setQuestion] = useState('');
@@ -8,6 +9,7 @@ function Form ( { handleAddCards }) {
         e.preventDefault();
 
         const newCardObject = {
+            id: generateKey(),
             question: question,
             answer: answer
         }

@@ -1,10 +1,10 @@
 question,answer
 analyze data directly in Amazon S3 by using standard SQL,Amazon Athena
 "find, subscribe to, and use third-party data in the cloud",AWS Data Exchange
-"run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data",Amazon EMR
-"discover, prepare, move, and integrate data from multiple sources",AWS Glue
+"run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data",Amazon EMR (Elastic Map Reduce)
+"discover, prepare, move, and integrate data from multiple sources (ETL)",AWS Glue
 "collect, process, and analyze video streams and data streams in near real time",Amazon Kinesis
-build and run applications that use Apache Kafka to process streaming data,Amazon MSK
+build and run applications that use Apache Kafka to process streaming data,Amazon MSK (Managed Streaming for Kafka)
 "deploy, operate, and scale OpenSearch clusters in the cloud",Amazon OpenSearch Service
 business intelligence service that provides insights in a single data dashboard,Amazon QuickSight
 "use events to connect application components together, build scalable event-driven applications",Amazon EventBridge
@@ -20,9 +20,9 @@ contains the most comprehensive set of cost and usage data available,AWS Cost an
 "curated digital catalog of third-party software, data, and services",AWS Marketplace
 run batch computing workloads,AWS Batch
 provides scalable computing capacity in the AWS Cloud,Amazon EC2
-deploy and manage applications without knowledge of the underlying infrastructure,AWS Elastic Beanstalk
+allows developers to deploy and monitor health of applications without managing underlying infrastructure (PaaS),AWS Elastic Beanstalk
 run code without the need to provision or manage servers,AWS Lambda
-launch projects quickly from a simple management interface,Amazon Lightsail
+launch projects quickly from a simple management interface with little cloud experience,Amazon Lightsail
 "extends AWS infrastructure, services, APIs, and tools to customer premises",AWS Outposts
 "container image registry that is secure, scalable, and reliable",Amazon ECR
 "deploy, manage, and scale containerized applications",Amazon ECS
@@ -46,7 +46,7 @@ artifact repository that helps companies to store and share software packages fo
 "host private Git repositories, store and manage assets",AWS CodeCommit
 automate application deployments to on-premises instances or select AWS resources,AWS CodeDeploy
 "model, visualize, and automate the steps to release software with continuous delivery",AWS CodePipeline
-create and manage software development projects by integrating AWS services in the project development toolchain,AWS CodeStar
+Streamline the development and delivery of scalable apps on AWS with an integrated experience,AWS CodeCatalyst
 use software development kits to develop applications in your preferred programming language,AWS SDK
 "collects data about application requests and provides tools to view, filter, and gain insights into the data",AWS X-Ray
 application streaming service that provides users with instant access to desktop applications from anywhere,Amazon AppStream 2.0
@@ -79,14 +79,14 @@ manage software licenses from software vendors centrally across AWS and on-premi
 web application used to manage AWS resources,AWS Management Console
 account management service that can consolidate billing and accounts,AWS Organizations
 create and manage catalogs of IT services that are approved for AWS,AWS Service Catalog
-"organize, monitor, and automate management tasks on AWS resources",AWS Systems Manager
-inspects a user’s AWS environment and makes recommendations based on best practices,AWS Trusted Advisor
+"automate, monitor, patch, or run commands across a fleet of EC2 and on-premises servers",AWS Systems Manager (SSM)
+"inspects a user’s AWS environment and makes recommendation regarding its performance, security, and fault tolerance",AWS Trusted Advisor
 provides recommendations to improve workloads based on best practices,AWS Well-Architected Tool
 collects usage and configuration data about on-premises servers and databases to help plan a migration to AWS,AWS Application Discovery Service
 automated lift-and-shift (rehost) solution for migrations to AWS,AWS Application Migration Service
-"migrate relational databases, data warehouses, NoSQL databases, and data stores to AWS",AWS DMS
+"migrate relational databases, data warehouses, NoSQL databases, and data stores to AWS",AWS DMS (Database MIgration Service)
 "a central location to discover existing servers, plan migrations, and track the status of each application migration",AWS Migration Hub
-convert an existing database schema from one database engine to another,AWS SCT
+convert an existing database schema from one database engine to another,AWS SCT (Schema Conversion Tool)
 "run operations in remote, non-data center environments, and locations without network connectivity",AWS Snow Family
 transfer files in to and out of AWS storage services,AWS Transfer Family
 "create, publish, and monitor REST, HTTP, and WebSocket APIs at any scale",Amazon API Gateway
@@ -99,7 +99,7 @@ establish a secure and private tunnel from on premises to the cloud,AWS VPN
 download security and compliance documents,AWS Artifact
 continually audit AWS usage to manage risk and to comply with regulations and industry standards,AWS Audit Manager
 "creates, stores, and renews public and private SSL/TLS certificates",AWS Certificate Manager (ACM)
-provides a compute device that processes cryptographic operations and storage,AWS CloudHSM
+provides a compute device that processes cryptographic operations and storage,AWS CloudHSM (Hardware Security Modules)
 "identity platform for web and mobile applications, including federation for third parties",Amazon Cognito
 "analyze, investigate, and identify the root cause of security findings or suspicious activities",Amazon Detective
 provides multiple ways to set up and run Microsoft Active Directory with AWS services,AWS Directory Service
@@ -111,7 +111,7 @@ continuously scans AWS workloads for software vulnerabilities and unintended net
 create and control cryptographic keys that protect user data,AWS KMS
 "discovers sensitive data, PII, and security risks, then provides automated protection against those risks",Amazon Macie
 provides intrusion detection and prevention for a VPC,AWS Network Firewall
-securely share resources across AWS accounts,AWS RAM
+securely share resources across AWS accounts,AWS RAM (Resource Access Manager)
 manage and rotate credentials to improve security,AWS Secrets Manager
 collects security data across accounts and identifies priority security issues,AWS Security Hub
 provides protection against DDoS attacks for AWS resources,AWS Shield
@@ -120,7 +120,7 @@ centralize and automate backups of data from AWS storage services and on-premise
 block-level storage volumes for use with EC2 instances,Amazon EBS
 "serverless, fully scalable shared file system",Amazon EFS
 "minimizes downtime and data loss from natural catastrophes, application failures, or disruptions of service",AWS Elastic Disaster Recovery
-"launch, run, and scale file systems in the cloud",Amazon FSx
+"launch, run, and scale 3rd-party file systems in the cloud",Amazon FSx
 scalable object storage in the cloud,Amazon S3
 secure and durable data archiving and long-term backup,Amazon S3 Glacier storage classes
 connect an on-premises software appliance with cloud-based storage,AWS Storage Gateway
@@ -139,7 +139,7 @@ build applications that deliver ultra-low latencies to mobile devices and end us
 a physical or software appliance that a user owns and manages on premises,Customer gateway
 establishes connectivity that spans Amazon VPCs spread across multiple Regions,Direct Connect gateway
 an Amazon VPC component that allows communication between a user’s computer and the internet,Internet gateway
-a network address translation service that gives instances in a private subnet the ability to connect to services outside of the user’s Amazon VPC,NAT gateway
+allow your instances in your private subnets to access the Internet while remaining private,NAT gateway
 the gateway on the AWS side of an AWS Site-to-Site VPN connection,Virtual private gateway
 physical host that is fully dedicated to the user,Dedicated Hosts
 "EC2 instance in a VPC dedicated to one user, no long-term commitment required, pay by the second",Dedicated Instances
@@ -148,3 +148,30 @@ reserve EC2 instance capacity with no term commitment required,On-Demand Capacit
 "no long-term commitment required, pay by the second",On-Demand Instances
 commit to a 1-year or 3-year term,Reserved Instances
 request unused instances for flexible workloads,Spot Instances
+lists all your accounts users and the status of their credenitals,IAM Credentials Report (account-level)
+shows the service permissions granted to a user and when they were accessed,IAM Access Advisor (user-level)
+An identity with permissions is that assumable by anyone who needs it,IAM Role
+"establishes private connectivity between VPCs and services hosted on AWS or on-premises, without exposing data to the internet.",AWS PrivateLInk
+Fully managed service to control satellite communications,AWS Ground Station
+Scalable 2-way marketing communication service,Amazon Pinpoint
+"Fully managed, serverless time-series database",TimeStream
+managed message broker service for Apache ActiveMQ and RabbitMQ,Amazon MQ
+a developer tool that provides intelligent recommendations to improve code quality,CodeGuru
+distributes incoming HTTP traffic across multiple targets,Application Load Balancer
+High performance routing of TCP or UDP traffic across multiple targets,Network Load Balancer
+Route traffic to firewalls for packet inspection before forwarding,Gateway Load Balancer
+Transfer terabytes of data into S3 from locations with or without internet,SnowCone
+Transfer Petabytes of data into S3 without using the network. Compute (42TB) or storage (80-200TB) optimized,SnowBall Edge
+"Transfer 100PB at a time, up to exabytes into S3",SnowMobile
+"fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log",QLDB (Quantum Ledger)
+fully managed native JSON document database compatible with MongoDB,DocumentDB
+Define cloud archtecture using a familiar language like Python or Javascript,CDK (cloud development kit)
+Start a secure shell on EC2 or on-premises servers without SSH,SSM Session Manager
+Route 53 policy used to route traffic to multiple resources in proportions that you specify,Weighted Routing Policy
+Route 53 policy with one endpoint and no health checks,Simple Routing Policy
+Route 53 policy that directs traffic based on how close they are to the endpoint,Latency Routing Policy
+Route 53 policy used for disaster recovery,Failover Routing Policy
+allows you to centrally manage all users and roles permissions in your AWS Organization,Service Control Policies (SCP)
+"most cost-effective option to have 24x7 phone, email, and chat support",Business Support Plan
+business-critical system down response under 15 minutes and access to a Technical Account Manager/Concierge Support Team,Enterprise Support Plan
+configuration management service that provides managed instances of Chef and Puppet.,OpsWorks

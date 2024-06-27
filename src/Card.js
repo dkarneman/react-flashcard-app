@@ -4,13 +4,13 @@ export default function Card ({ card, handleDeleteCard }) {
     const [flipCard, setFlipCard] = useState(true);
 
     const handleDelete = (cardId) => {
-        handleDeleteCard(cardId);
         fetch(`http://localhost:3001/questions/${cardId}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
             }
         })
+        handleDeleteCard(cardId);
     }
 
     var className = "flash-card ";

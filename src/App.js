@@ -56,7 +56,7 @@ function App() {
       <div className="controls">
         <input className='shuffle' type='button' value='Shuffle' onClick={ handleShuffleCards }/>
         <Form handleAddCards={ handleAddCards }/>
-          <button onClick={ openModal }>Import CSV</button>
+        <button onClick={ openModal }>Import CSV</button>
       </div>
       <div>
         <CardList cards={ cards } handleDeleteCard={ handleDeleteCard }/>
