@@ -52,8 +52,8 @@ use software development kits to develop applications in your preferred programm
 application streaming service that provides users with instant access to desktop applications from anywhere,Amazon AppStream 2.0
 "provision virtual, cloud-based desktops without the need to deploy hardware or install complex software",Amazon WorkSpaces
 facilitates secure browser access to internal websites and SaaS applications,Amazon WorkSpaces Web
-set of purpose-built tools and features to build full-stack applications,AWS Amplify
-connect applications and services to data and events with GraphQL and pub/sub APIs,AWS AppSync
+set of purpose-built tools and features to build full-stack mobile applications,AWS Amplify
+connect mobile applications and services to data and events with GraphQL and pub/sub APIs,AWS AppSync
 "app testing for Android, iOS, and web apps",AWS Device Farm
 connect and process messages between IoT devices and IoT services,AWS IoT Core
 "build, deploy, and manage IoT edge runtime applications on devices",AWS IoT Greengrass
@@ -139,7 +139,8 @@ build applications that deliver ultra-low latencies to mobile devices and end us
 a physical or software appliance that a user owns and manages on premises,Customer gateway
 establishes connectivity that spans Amazon VPCs spread across multiple Regions,Direct Connect gateway
 an Amazon VPC component that allows communication between a user’s computer and the internet,Internet gateway
-allow your instances in your private subnets to access the Internet while remaining private,NAT gateway
+allow your instances in your private subnets to access the Internet while remaining private. Managed by AWS,NAT gateway
+allow your instances in your private subnets to access the Internet while remaining private. Managed by you.,NAT Instance
 the gateway on the AWS side of an AWS Site-to-Site VPN connection,Virtual private gateway
 physical host that is fully dedicated to the user,Dedicated Hosts
 "EC2 instance in a VPC dedicated to one user, no long-term commitment required, pay by the second",Dedicated Instances
@@ -175,3 +176,19 @@ allows you to centrally manage all users and roles permissions in your AWS Organ
 "most cost-effective option to have 24x7 phone, email, and chat support",Business Support Plan
 business-critical system down response under 15 minutes and access to a Technical Account Manager/Concierge Support Team,Enterprise Support Plan
 configuration management service that provides managed instances of Chef and Puppet.,OpsWorks
+Canvas to visually design and build serverless applications,AWS Application Composer
+Move large amount of data from on-premises to AWS. Replication tasks are incremental.,AWS DataSync
+Which AWS services support VPC Endpoint Gateway for a private connection from a VPC?,S3 and DynamoDB (others use Interface Endpoints)
+Maximum percent savings for reserving an instance,72%
+Services that are encrypted by default,S3 and Storage Gateway
+Which Amazon Simple Storage Service (Amazon S3) storage class offers the lowest availability?,Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA)
+What are the components of an AWS Site-to-Site VPN?,Virtual Private Gateway(VPG)/Transit Gateway and Customer Gateway
+"provides built-in human review workflows for common machine learning use cases, such as content moderation and text extraction from documents",Amazon Augmented AI (A2I)
+When do you pay for data transfered between S3 and an EC2 instance?,If it's in a different region
+Which service can you use to choose an optimal Savings Plan,Cost Explorer
+What are the two types of savings plans?,Compute Savings Plan and EC2 Instance Savings Plan
+automated reference deployments for key workloads,AWS Partner Solutions(formerly Quick Starts)
+graphical user interface you can use to manage your AWS Snowball devices,AWS OpsHub
+"provides reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, etc.",AWS Architecture Center
+Which data sources are used by Amazon Detective to analyze events and identify potential security issues?,AWS CloudTrail logs/Amazon VPC Flow Logs/Amazon GuardDuty findings
+"simplifies the building, testing, and deployment of Virtual Machine and container images for use on AWS or on-premises.",EC2 Image Builder
